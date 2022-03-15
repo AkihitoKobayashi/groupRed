@@ -1,16 +1,37 @@
 @charset "UTF-8";
 
 /*-------------------------
-  初期値　※虫生さんお願いできますか？？？？？
+  初期値　
 -------------------------*/
 
 
 
 
 /*-------------------------
-  グローバル　※村岡担当します！！！以下は随時担当割しましょう
+  グローバル　
 -------------------------*/
 
+.container {
+  
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 94%;
+  }
+}
+
+.gl-header {
+  padding-top: 15px;
+  height: 140px;
+  background: linear-gradient(110deg,
+      black 0%,
+      rgba(27, 18, 18, .7) 70%,
+      rgba(27, 18, 18, .8) 100%),
+    url("../images/wood.jpg") 0 0 / contain repeat-x;
+  background-blend-mode: hard-light;
+}
 
 
 
